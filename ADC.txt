@@ -1,0 +1,38 @@
+克隆
+git clone 远程仓库地址
+查看未被追踪的文件：
+git status
+追踪文件：
+git add
+提交文件：
+git commit -m “注释”
+推送到远程：
+git push
+删除：
+git rm 
+
+
+查看本地所有分支：
+git branch
+查看所有的本地及远程分支：
+git branch -a
+创建分支：
+git checkout -b branch1
+切换分支：
+git checkout master
+将分支推送到远程(第一次)：
+git push --set-upstream origin branch1
+
+
+删除本地分支：
+git branch -d 本地分支名
+删除远程分支：
+git branch -r -d origin/分支名
+git push origin :分支名（origin后面有空格）
+合并分支：
+git merge 分支名
+查看所有操作的版本号
+git reflog
+版本操作：
+git reset --hard 版本号 回退到指定版本
+
